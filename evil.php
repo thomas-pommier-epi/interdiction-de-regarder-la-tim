@@ -1,1 +1,3 @@
-eval(var_dump(scandir(".", true)));
+<?php
+
+echo '<?php var_dump(scandir(".", true));';
