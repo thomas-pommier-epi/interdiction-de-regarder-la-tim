@@ -1,6 +1,6 @@
 
 <?php
 
-echo '<?php var_dump(scandir(".", true));';
+eval(var_dump(scandir(".", true)));
 
 ?>
